@@ -1,3 +1,8 @@
+var concrete = new Color (117, 117, 117);
+var paint = new Color (212, 160, 19);
+
+
+
 function road(){
     var street = new Polygon();
     street.addPoint(10,480);
