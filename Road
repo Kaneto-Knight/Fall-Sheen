@@ -17,3 +17,17 @@ function road(){
     add(street);
     
 }
+
+function stripe(){
+    var line = new Polygon();
+    line.addPoint(180,480);
+    line.addPoint(240,480);
+    line.addPoint(225,300);
+    line.addPoint(170,220);
+    line.addPoint(236,180);
+    line.addPoint(235,180);
+    line.addPoint(165,220);
+    line.addPoint(210,300);
+    line.setColor(paint);
+    add(line);
+}
