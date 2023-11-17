@@ -1,0 +1,14 @@
+function road(){
+    var street = new Polygon();
+    street.addPoint(10,480);
+    street.addPoint(360,480);
+    street.addPoint(290,300);
+    street.addPoint(200,220);
+    street.addPoint(250,180);
+    street.addPoint(220,180);
+    street.addPoint(140,220);
+    street.addPoint(180,300);
+    street.setColor(concrete);
+    add(street);
+    
+}
